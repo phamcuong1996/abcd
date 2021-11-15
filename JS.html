@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<script <!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<script>
+            function DuplicateName(arrayName) {
+  let listName = [];
+  for (let i = 0; i < arrayName.length; i++) {
+    const a = arrayName[i].split(' ');
+    listName.push(a[a.length - 1]);
+  }
+  const passed = [];
+  for (let j = 0; j < listName.length; j++ ) {
+    let sum = 0;
+    for (let e = 0; e < passed.length; e ++) {
+      if(listName[j] === passed[e]) return
+    }
+    for (let k = 0; k < listName.length; k++) {
+      if(listName[j] === listName[k]) {
+        sum += 1
+      }
+    }
+    if(sum > 1) {
+      passed.push(listName[j])
+      console.log(listName[j] + " : " + sum)
+    }
+  }
+}
+DuplicateName(students);
+</script>
+<form method="get" action="">
+    Nhập số: <input type="text" id="number" value="0"/>
+    <input type="button" value="In kết quả" onclick="print_number()"/>
+</form>
+<div id="result">
+
+</div>
+</body>
+</html>
+
+</script>
+<div id="result">
+
+</div>
+</body>
+</html>
+        </script>
+<form method="get" action="">
+    Nhập số: <input type="text" id="number" value="0"/>
+    <input type="button" value="In kết quả" onclick="print_number()"/>
+</form>
+<div id="result">
+
+</div>
+</body>
+</html>
